@@ -1,0 +1,8 @@
+Open your jenkins on any browser usually it will be something like http://xxx.xxx.xx.xx:8080/ server here xx= your Ip Address
+Then go to create new item or job select as freestyle prject give a suitable name for it.
+Once the job created click on job go to configure and select Source Code Management (SCM).
+Make a github repo make it public add some file in it as  i have added scripting.sh file in my case.
+Give the url of this git hub repo to scm by selecting git you will see  the options to write the project URL.
+Provide the url of your repo and click on advance and select the main branch or branch of your desire to get or copy the files in jenkins workspace.
+Then go to "Buil Step" select execute shell there type the file name which you want to execute e.g  bash filename.sh and save it
+Now it time to build the job and hurray you have perform the build on jenkins.
