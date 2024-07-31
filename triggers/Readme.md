@@ -8,12 +8,11 @@ because this is where your apache/ httpd server store the file to display to the
 `
 and save this as this will give jenkins the root privillege.
 5. Then again you can build your job but again it will fail because in the execute shell you have to add `Sudo`  as it gave the root limited privillege to jenkins. This will solve the problem of job building and your job will be build within seconds. AS of now we have done every build manually but this is all done to check where our build is running or not.
-6. Make sure to activate the `httpd` on your system to load the web server then refresh the web  page and your site will be up right there.
-
-``Cron Tab ``
+6. Make sure to activate the `httpd` on your system to load the web server then refresh the web  page and your site will be up right there.``Cron Tab ``
 `min hour date month day`
 `5 10 11 04 *`
 `5 10 * * *` everyday
-`* * * * *` everyminute
+`* * * * *` everyminute.
+
 7. `Build Periodically` are based on cron tab when to use build automatically.
 This will run in everyminute automatically this is build periodically in jenkins.
