@@ -23,4 +23,4 @@ This will run in every-minute automatically this is build periodically in jenkin
 10. Got to your github repo click on setting select the webhook  on `payload url = your machineip:portnumber`
 e.g `http://192.168.xx.x:8080/github-webhook` and also selecte the action on which your jenkins will come to know is there need to perform any action to the specific job. Activate the webhook. 
 
-11. 
+11. For this you should have an public ip address of your machine for thisu you can use the ngrok which provide the temporary public ip address to use. Otherwise you can face some issues.
