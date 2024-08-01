@@ -21,6 +21,12 @@ This will run in everyminute automatically this is build periodically in jenkins
 9. Jenkins have a `GitHub Hook Trigger for github scm polling` this act on our action of github which is connected to jenkins. For using this trigger setup the webhook.
 
 10. Got to your github repo click on setting select the webhook  on `payload url = your machineip:portnumber`
-e.g `http://192.168.xx.x:8080/github-webhook` and also selecte the action on which your jenkins will come to know is there need to perform any action to the specific job. Activate the webhook. 
+e.g `http://192.168.xx.x:8080/github-webhook/` and also selecte the action on which your jenkins will come to know is there need to perform any action to the specific job. Activate the webhook. 
 
-11. 
+11. For this you should have an public ip address of your machine for thisu you can use the ngrok which provide the temporary public ip address to use. Otherwise you can face some issues.
+
+12. ``Trigger build remotely`` this trigger is used to build the job remotely by accessing a token authenitication or just a `api url` that is provided to  build the job but this one is quite risky because it  expose your login so avoid to use this. There are more triggers in jenkins that differ in their use case.
+
+13. Every trigger has it's own use case use the triggers according to your use case.
+
+14. For more  do follow the documentation for new features and implementation.
