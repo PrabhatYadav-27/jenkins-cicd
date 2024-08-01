@@ -16,3 +16,11 @@ and save this as this will give jenkins the root privillege.
 
 7. `Build Periodically` are based on cron tab when to use build automatically.
 This will run in everyminute automatically this is build periodically in jenkins.
+
+8. ``WEBHOOKS`` this is used in github to hook our github repo with other tool so to maintain the chances made in our repo visible to the tools too. So they can operate on the repo accordingly.
+9. Jenkins have a `GitHub Hook Trigger for github scm polling` this act on our action of github which is connected to jenkins. For using this trigger setup the webhook.
+
+10. Got to your github repo click on setting select the webhook  on `payload url = your machineip:portnumber`
+e.g `http://192.168.xx.x:8080/github-webhook` and also selecte the action on which your jenkins will come to know is there need to perform any action to the specific job. 
+
+11. 
