@@ -12,4 +12,12 @@ Where as `Job 3` will be known as ``DownStream Job``  this create the whole pipl
 ``View `` this will give you a separte list view of your job which you have selected to see them at one place for this basically view is used.
 
 
-We will be  using the `trigger` to setup the upstream and downstream of the job for this go to the `job2` then select the trigger build after project and select the upstream and downstream  of the project by selecting the project sequence like for `job2` upstream is `job1` and downstream is `job3`. When the first job will trigger or get build then only the next jobs will be build. 
+We will be  using the `trigger` to setup the upstream and downstream of the job for this go to the `job2` then select the trigger build after project and select the upstream and downstream  of the project by selecting the project sequence like for `job2` upstream is `job1` and downstream is `job3`. When the first job will trigger or get build then only the next jobs will be build.
+
+``Pipeline Plugins`` there are various pipeline pluggins which acts differently aboce we have discuss the view but now we will be delving the the `delivery pipeline` this will help to catter all the jobs right from initial job to end job in one single visual appearance. This has it own features like how much time it take to perform all the build or buil button in this view.
+
+``Build Pipeline`` this pipeline pluggin is more advance as compared to the `delivery pluggin` as it more features like add new job form build view all the logs history of your build jobs you can configure the build from this view also. This really helps in managing large scalable builds.
+
+``Jenkins pipelines`` this pluggin is more advance and mostly used by the industry as it is a scalable and technically has more  features under its wings.
+
+# DO FOLLOW THE DOUCMENTATION FOR MORE IMPLEMENTATIONS AND DETAILS ABOUT EACH AND EVERY PLUGGINS AND  PIPELINES.
