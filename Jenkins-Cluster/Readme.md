@@ -6,3 +6,5 @@
 
 `` Distribute Cluster ``  Cluster is something that holds both the `Master node` and `Worker Node`
 cluster is responsible for providing various environment required to  manage the application.
+
+For this we need atleast instances one which conatains `Master node` and other instance will contain the `Worker Node`.
