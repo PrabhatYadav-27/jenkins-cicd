@@ -8,3 +8,5 @@
 cluster is responsible for providing various environment required to  manage the application.
 
 For this we need atleast instances one which conatains `Master node` and other instance will contain the `Worker Node`.
+
+Only two job can run simultaneously when you try to perform the third job it will be in queue.
