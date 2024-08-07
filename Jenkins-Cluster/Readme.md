@@ -17,4 +17,8 @@ Number of jobs depends on the amount of resources we have  with us. If we want t
 
 `Create Node Cluster` go to jenkins dashboard select manage jenkins then click on node and give a suitable node to create the cluster you should remember your  node name as it require when you setup the master and slave cluster. You can also add the number of executor there.
 
-``Agent`` This programs main function is to connect the master and slave via ssh or remote connection as master can give the command to run continuously the jobs on slave node, For this we need a medium and this medium is called as a `Agent` and this whole program is known as  `Permanent Agent` this  keep the slave node wake up. 
+``Agent`` This programs main function is to connect the master and slave via ssh or remote connection as master can give the command to run continuously the jobs on slave node, For this we need a medium and this medium is called as a `Agent` and this whole program is known as  `Permanent Agent` this  keep the slave node wake up.
+
+` Remote Root Directory` it is always mandatory to give the directory where your jobs related required files will be stored. iF  you fail to provide any directory your slave node will not be able to start and you will see the `red cross mark`.
+
+Select the launch method how to launch the job either by controller or command line execution you have to select the launcher as per your job requirements. 
