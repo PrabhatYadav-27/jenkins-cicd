@@ -22,3 +22,8 @@ Number of jobs depends on the amount of resources we have  with us. If we want t
 ` Remote Root Directory` it is always mandatory to give the directory where your jobs related required files will be stored. iF  you fail to provide any directory your slave node will not be able to start and you will see the `red cross mark`.
 
 Select the launch method how to launch the job either by controller or command line execution you have to select the launcher as per your job requirements. 
+
+While creating the job in general select the label so that job specifically runs in the slave node only.
+
+This way you can create the jenkins-clsuter for your jobs and configure the master and slave node or cluster.
+
